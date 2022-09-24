@@ -13,7 +13,7 @@ Assesment is as below
 Note: Assume that there are more than 2 columns to get the highest cell value for. There could be more columns on the same grid or on other grids on other pages. Try to find a solution to fit for all
 
 2- All the above points has been applied on my project and the code is up and runnning <br />
-3- in order to run the project , right click on "FootballStatusTestCases" --> run as TestNG Test
+3- in order to run the project , right click on "FootballStatusTestCases" --> run as TestNG Test <br />
 4- Soft Assertions is used in order not to quit if the verification failed <br />
 5- if verification status needed , kindly uncomment this line --> FootballStatusTestCases.java --> AfterTest --> endReport() --> uncomment "softassert.assertall"<br />
 6- please check all the logging and Reporting (Console , itworx.log , test-output related reposrts , , ITworxReport (Under Report) , screenshoots are provided for this report )<br />
