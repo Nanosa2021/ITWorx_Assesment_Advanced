@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-09-24T17:10:46 EET" name="Default suite" finished-at="2022-09-24T17:11:07 EET" duration-ms="20455">
+    <groups>
+    </groups>
+    <test started-at="2022-09-24T17:10:46 EET" name="Default test" finished-at="2022-09-24T17:11:07 EET" duration-ms="20455">
+      <class name="itworx.itworx.FootballStatusTestCases">
+        <test-method is-config="true" signature="beforeTest(org.testng.xml.XmlTest)[pri:0, instance:itworx.itworx.FootballStatusTestCases@b86de0d]" started-at="2022-09-24T17:10:46 EET" name="beforeTest" finished-at="2022-09-24T17:10:46 EET" duration-ms="32" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.xml.XmlTest@1b63999a]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:itworx.itworx.FootballStatusTestCases@b86de0d]" started-at="2022-09-24T17:10:47 EET" name="beforeMethod" finished-at="2022-09-24T17:10:51 EET" duration-ms="4154" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void itworx.itworx.FootballStatusTestCases.getTop20Scores() throws java.lang.InterruptedException,java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="getTop20Scores()[pri:0, instance:itworx.itworx.FootballStatusTestCases@b86de0d]" started-at="2022-09-24T17:10:51 EET" name="getTop20Scores" finished-at="2022-09-24T17:10:53 EET" duration-ms="2119" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getTop20Scores -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:itworx.itworx.FootballStatusTestCases@b86de0d]" started-at="2022-09-24T17:10:53 EET" name="afterMethod" finished-at="2022-09-24T17:10:53 EET" duration-ms="459" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=getTop20Scores status=SUCCESS method=FootballStatusTestCases.getTop20Scores()[pri:0, instance:itworx.itworx.FootballStatusTestCases@b86de0d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:itworx.itworx.FootballStatusTestCases@b86de0d]" started-at="2022-09-24T17:10:53 EET" name="beforeMethod" finished-at="2022-09-24T17:10:57 EET" duration-ms="3855" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void itworx.itworx.FootballStatusTestCases.languageVerification()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="languageVerification()[pri:0, instance:itworx.itworx.FootballStatusTestCases@b86de0d]" started-at="2022-09-24T17:10:57 EET" name="languageVerification" finished-at="2022-09-24T17:10:57 EET" duration-ms="33" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- languageVerification -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:itworx.itworx.FootballStatusTestCases@b86de0d]" started-at="2022-09-24T17:10:57 EET" name="afterMethod" finished-at="2022-09-24T17:10:58 EET" duration-ms="400" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=languageVerification status=SUCCESS method=FootballStatusTestCases.languageVerification()[pri:0, instance:itworx.itworx.FootballStatusTestCases@b86de0d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:itworx.itworx.FootballStatusTestCases@b86de0d]" started-at="2022-09-24T17:10:58 EET" name="beforeMethod" finished-at="2022-09-24T17:11:01 EET" duration-ms="2516" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void itworx.itworx.FootballStatusTestCases.verifyHighestTeam(java.lang.String,java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="verifyHighestTeam(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:itworx.itworx.FootballStatusTestCases@b86de0d]" started-at="2022-09-24T17:11:01 EET" name="verifyHighestTeam" data-provider="SortColumns" finished-at="2022-09-24T17:11:02 EET" duration-ms="1284" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[team]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[points]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Chelsea]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHighestTeam -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:itworx.itworx.FootballStatusTestCases@b86de0d]" started-at="2022-09-24T17:11:02 EET" name="afterMethod" finished-at="2022-09-24T17:11:02 EET" duration-ms="366" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyHighestTeam status=SUCCESS method=FootballStatusTestCases.verifyHighestTeam(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:itworx.itworx.FootballStatusTestCases@b86de0d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:itworx.itworx.FootballStatusTestCases@b86de0d]" started-at="2022-09-24T17:11:02 EET" name="beforeMethod" finished-at="2022-09-24T17:11:05 EET" duration-ms="2884" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void itworx.itworx.FootballStatusTestCases.verifyHighestTeam(java.lang.String,java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="verifyHighestTeam(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:itworx.itworx.FootballStatusTestCases@b86de0d]" started-at="2022-09-24T17:11:05 EET" name="verifyHighestTeam" data-provider="SortColumns" finished-at="2022-09-24T17:11:06 EET" duration-ms="1029" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[team]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[all.goals.for]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Liverpool]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHighestTeam -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:itworx.itworx.FootballStatusTestCases@b86de0d]" started-at="2022-09-24T17:11:06 EET" name="afterMethod" finished-at="2022-09-24T17:11:07 EET" duration-ms="355" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyHighestTeam status=SUCCESS method=FootballStatusTestCases.verifyHighestTeam(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:itworx.itworx.FootballStatusTestCases@b86de0d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="endReport()[pri:0, instance:itworx.itworx.FootballStatusTestCases@b86de0d]" started-at="2022-09-24T17:11:07 EET" name="endReport" finished-at="2022-09-24T17:11:07 EET" duration-ms="230" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+      </class> <!-- itworx.itworx.FootballStatusTestCases -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
