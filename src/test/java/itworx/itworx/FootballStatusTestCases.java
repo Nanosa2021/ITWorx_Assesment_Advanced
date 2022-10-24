@@ -95,7 +95,10 @@ public class FootballStatusTestCases extends TestBase{
 		// second we get the max points/goals
 		// get the value (points/goals) which has the key (team) --> Chelsea/liverpool
 		// verify whether max points = Chelsea's points or not 
-		
+		 Thread.sleep(1000);
+		 jse.executeScript("document.body.style.zoom = '50%';");
+		//Thread.sleep(500);
+		Thread.sleep(1000);
 		sortedMapTeamPoints = footballStatusPage.sortColumns(driver , column1,column2);
 		allPoints_Goals=footballStatusPage.getAllPointsInIntegers(driver,column2);
 		Collections.sort(allPoints_Goals);
